@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Center Image</title>
+
+    <style>
+        body {
+            background: linear-gradient(to bottom, lightgray, white);
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            background-color: dodgerblue;
+            color: white;
+            padding: 20px;
+            margin: 0;
+        }
+
+        img {
+            display: block;
+            margin: auto;
+            width: 540px;
+            height: 492px;
+            border-radius: 10px;
+        }
+
+        .box {
+            padding: 20px;
+            margin: 20px auto;
+            width: 50%;
+            border-radius: 10px;
+        }
+
+        .flamingo { background-color: pink; }
+        .bluejay { background-color: lightblue; }
+        .canary { background-color: yellow; }
+        .parrot { background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); }
+        .hummingbird { background-color: lightgreen; }
+    </style>
+</head>
+
+<body>
+
+<h1>A Sanctuary of Birds</h1>
+
+<img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/320036721/900" alt="Flamingo">
+<div class="box flamingo">
+    <h2>Flamingo</h2>
+    <p>Flamingos are found in tropical and subtropical areas.</p>
+</div>
+
+<img src="https://www.allaboutbirds.org/guide/assets/photo/302355171-480px.jpg" alt="Blue Jay">
+<div class="box bluejay">
+    <h2>Blue Jay</h2>
+    <p>The blue jay is native to eastern North America. It lives in most of the eastern and central United States.</p>
+</div>
+
+<img src="https://cdn.britannica.com/33/226533-050-404C15AF/Canary-on-pear-branch.jpg" alt="Canary">
+<div class="box canary">
+    <h2>Canary</h2>
+    <p>The canary is native to the Canary, Azores, and Madeira islands.</p>
+</div>
+
+<img src="https://i.ebayimg.com/00/s/MTYwMFgxMjgw/z/s6cAAOSwl2BeTtN9/$_57.JPG?set_id=8800005007" alt="Parrot">
+<div class="box parrot">
+    <h2>Parrot</h2>
+    <p>The Parrot is native to tropical and subtropical regions around the world.</p>
+</div>
+
+<img src="https://abcbirds.org/wp-content/uploads/2015/06/BOTW-Homepage-Thumbnail_Allens-Hummingbird-1024x663.jpg" alt="Hummingbird">
+<div class="box hummingbird">
+    <h2>Hummingbird</h2>
+    <p>Hummingbirds can be found from Alaska to Tierra del Fuego.</p>
+</div>
+
+<form action="details.html" method="get">
+    <input type="submit" value="Go to details page">
+</form>
+
+<form action="about.html" method="get">
+    <input type="submit" value="Go to about page">
+</form>
+
+
+</body>
+</html>
