@@ -1,0 +1,1 @@
+A static website showcasing a gallery of different pictures of birds on the home page titled index. The details page sheds more light on a specific bird, the flamingo and the about page references painter John James Audubon. 
